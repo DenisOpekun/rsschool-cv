@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
     <title>CV#2. HTML, CSS & Git Basics</title>
   </head>
   <body>
@@ -12,60 +13,67 @@
         <div class="header">
           <div class="container">
             <div class="header__row">
-              <div class="header__img">
-                <img src="/img/unnamed.jpg" alt="my photo" />
+              <div class="header__column">
+                <div class="header__img">
+                  <img src="/img/unnamed.jpg" alt="my photo" />
+                </div>
               </div>
-              <div class="header__title title">Denis Opekun</div>
-              <div class="header__about_me">
-                About me I am a graduate Yanka Kupala State University of
-                Grodno. My specialty is world economy. And now I am a beginner
-                Front-End developer.I am a purposeful and highly motivated
-                person who can adjust quickly to new surroundings. My qualities
-                such as sociability, flexibility and dependability make me good
-                at teamwork. I am well organized and detail oriented which I
-                believe is a key to successfully managing responsibilities
+              <div class="header__column">
+                <div class="header__title">Denis Opekun</div>
+                <div class="header__about_me">
+                  About me I am a graduate Yanka Kupala State University of
+                  Grodno. My specialty is world economy. And now I am a beginner
+                  Front-End developer.I am a purposeful and highly motivated
+                  person who can adjust quickly to new surroundings. My
+                  qualities such as sociability, flexibility and dependability
+                  make me good at teamwork. I am well organized and detail
+                  oriented which I believe is a key to successfully managing
+                  responsibilities
+                </div>
               </div>
-              <div class="header__my_contact">
-                <a target="_blank" href="https://instagram.com/denisopekun"
-                  >Instagram</a
-                >
-                <a target="_blank" href="https://t.me/dendude1">Telegram</a>
-                <a
-                  target="_blank"
-                  href="https://discordapp.com/users/932931904347439114/ "
-                  >Discord</a
-                >
-                <a
-                  target="_blank"
-                  href="https://www.linkedin.com/in/dennis-opekun"
-                  >linkedin</a
-                >
-                <a href="mailto:denopekun@outlook.com?subject=Вопрос по CV"
-                  >Email</a
-                >
-                <p>mobile: +375295661389</p>
+              <div class="header__column">
+                <div class="header__my_contact title">
+                  <a target="_blank" href="https://instagram.com/denisopekun"
+                    >Instagram</a
+                  >
+                  <a target="_blank" href="https://t.me/dendude1">Telegram</a>
+                  <a
+                    target="_blank"
+                    href="https://discordapp.com/users/932931904347439114/ "
+                    >Discord</a
+                  >
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/dennis-opekun"
+                    >linkedin</a
+                  >
+                  <a href="mailto:denopekun@outlook.com?subject=Вопрос по CV"
+                    >Email</a
+                  >
+                  <p>mobile: +375295661389</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <div class="main">
           <div class="container">
-            <div class="main__title title">About me</div>
+            <div class="main__title title">Information</div>
             <div class="main__row">
               <div class="main__cloumn">
                 <div class="main__item item">
                   <div class="item__row">
-                    <div class="main__block">
-                      <div class="item__image">
-                        <img src="" alt="" />
-                      </div>
-                      <div class="item__body">
-                        <div class="item__title">Example code</div>
-                        <div class="item__list">
-                          <code>
-                            unction multiply (a, b){ return a * b; }
-                          </code>
-                        </div>
+                    <div class="item__image">
+                      <img src="/img/code-solid.svg" alt="code-solid" />
+                    </div>
+                    <div class="item__body">
+                      <div class="item__title">Example code</div>
+                      <div class="item__list">
+                        <code>
+                          <p>unction multiply (a, b){</p>
+                          <p>return a * b;</p>
+                          <p>}</p>
+                        </code>
                       </div>
                     </div>
                   </div>
@@ -74,20 +82,19 @@
               <div class="main__cloumn">
                 <div class="main__item item">
                   <div class="item__row">
-                    <div class="main__block">
-                      <div class="item__image">
-                        <img src="" alt="" />
-                      </div>
-                      <div class="item__body">
-                        <div class="item__title">Courses</div>
-                        <ul class="main__list">
-                          <li>JavaScript Manual on learnjavascript.ru</li>
-                          <li>
-                            RS Schools Course «JavaScript/Front-end.Stage 0
-                          </li>
-                          <li>CodeCademy</li>
-                        </ul>
-                      </div>
+                    <div class="item__image">
+                      <img
+                        src="/img/file-lines-regular.svg"
+                        alt="file-lines-regular"
+                      />
+                    </div>
+                    <div class="item__body">
+                      <div class="item__title">Courses</div>
+                      <ul class="main__list">
+                        <li>JavaScript Manual on learnjavascript.ru</li>
+                        <li>RS Schools Course «JavaScript/Front-end.Stage 0</li>
+                        <li>CodeCademy</li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -95,18 +102,16 @@
               <div class="main__cloumn">
                 <div class="main__item item">
                   <div class="item__row">
-                    <div class="main__block">
-                      <div class="item__image">
-                        <img src="" alt="" />
-                      </div>
-                      <div class="item__body">
-                        <div class="item__title">my skills</div>
-                        <ul class="main__list">
-                          <li>HTML5</li>
-                          <li>CSS3</li>
-                          <li>JavaScript Basics</li>
-                        </ul>
-                      </div>
+                    <div class="item__image">
+                      <img src="/img/gears-solid.svg" alt="gears-solid" />
+                    </div>
+                    <div class="item__body">
+                      <div class="item__title">my skills</div>
+                      <ul class="main__list">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript Basics</li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -114,19 +119,17 @@
               <div class="main__cloumn">
                 <div class="main__item item">
                   <div class="item__row">
-                    <div class="main__block">
-                      <div class="item__image">
-                        <img src="" alt="" />
-                      </div>
-                      <div class="item__body">
-                        <div class="item__title">languages</div>
-                        <ul class="main__list">
-                          <li>Belorussian</li>
-                          <li>English</li>
-                          <li>Polish</li>
-                          <li>Russian</li>
-                        </ul>
-                      </div>
+                    <div class="item__image">
+                      <img src="/img/language-solid.svg" alt="language-solid" />
+                    </div>
+                    <div class="item__body">
+                      <div class="item__title">languages</div>
+                      <ul class="main__list">
+                        <li>Belorussian</li>
+                        <li>English</li>
+                        <li>Polish</li>
+                        <li>Russian</li>
+                      </ul>
                     </div>
                   </div>
                 </div>
